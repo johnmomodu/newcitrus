@@ -1,8 +1,5 @@
 # 🍊 Citrus Leaf Disease Detection
 
-Final-year project at Bells University of Technology comparing four machine learning models for classifying citrus leaf diseases from images, with a Streamlit app for live predictions.
-
-![App demo](paste-screenshot-link)
 
 ## Models compared
 | Model | Accuracy | Precision | Recall | F1 |
@@ -12,12 +9,7 @@ Final-year project at Bells University of Technology comparing four machine lear
 | Random Forest | [95.8]% | [95.9] | [95.8] | [95.8] |
 | KNN | [94.4]% | [94.5] | [94.4] | [94.4] |
 
-**Best model:** [CNN] with [ ]% accuracy.
-
-## Screenshots
-![Confusion matrix](link)
-![Model comparison](link)
-![Sample prediction](link)
+**Best model:** [CNN] with [98.1]% accuracy.
 
 ## Workflow
 1. Dataset collection and cleaning
@@ -35,9 +27,6 @@ Python, TensorFlow/Keras, scikit-learn, NumPy, Streamlit
 - `models/`: trained models
 - `requirements.txt`: dependencies
 
-## Run locally
-Requires Python 3.9–3.12 (TensorFlow does not support 3.13+).
-
 ```bash
 git clone https://github.com/Genie4pe/newcitrus
 cd newcitrus
@@ -46,4 +35,4 @@ streamlit run app.py
 ```
 
 ## Author
-John Momodu · [LinkedIn](your-linkedin-url)
+John Momodu · https://www.linkedin.com/in/john-momodu-330b5b339
