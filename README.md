@@ -28,7 +28,7 @@ Python, TensorFlow/Keras, scikit-learn, NumPy, Streamlit
 - `requirements.txt`: dependencies
 
 ```bash
-git clone https://github.com/Genie4pe/newcitrus
+git clone (https://github.com/johnmomodu/newcitrus)
 cd newcitrus
 pip install -r requirements.txt
 streamlit run app.py
